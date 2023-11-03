@@ -1,0 +1,12 @@
+
+---
+
+deployment:
+
+    tasks:
+    - export DEPLOYPATH=/home/uxuezerb/sites/acertarNumero.uxue.zerbitzaria.net
+    - rm -Rf $DEPLOYPATH/*
+    - cp -Rf css $DEPLOYPATH
+    - cp -Rf images $DEPLOYPAH
+    - cp -Rf js  $DEPLOYPAH
+    - cp -Rf AZTERKETA.HTML  $DEPLOYPAH
