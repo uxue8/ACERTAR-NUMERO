@@ -7,6 +7,6 @@ deployment:
     - export DEPLOYPATH=/home/uxuezerb/sites/acertarNumero.uxue.zerbitzaria.net
     - rm -Rf $DEPLOYPATH/*
     - cp -Rf css $DEPLOYPATH
-    - cp -Rf images $DEPLOYPAH
-    - cp -Rf js  $DEPLOYPAH
-    - cp -Rf AZTERKETA.HTML  $DEPLOYPAH
+    - cp -Rf images $DEPLOYPATH
+    - cp -Rf js  $DEPLOYPATH
+    - cp -Rf AZTERKETA.HTML  $DEPLOYPATH
