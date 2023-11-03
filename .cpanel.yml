@@ -9,4 +9,4 @@ deployment:
     - cp -Rf css $DEPLOYPATH
     - cp -Rf images $DEPLOYPATH
     - cp -Rf js  $DEPLOYPATH
-    - cp -Rf AZTERKETA.HTML  $DEPLOYPATH
+    - cp -Rf AZTERKETA.html  $DEPLOYPATH
